@@ -1,0 +1,13 @@
+{
+  "name": "kafka-demo",
+  "version": "1.0.0",
+  "description": "This is a sample Kafka demo application that demonstrates the basic usage of the kafkajs library in Node.js to produce and consume messages with Apache Kafka.",
+  "main": "index.js",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.20.3",
+    "express": "4.21.1",
+    "kafkajs": "2.2.4",
+    "pg": "^8.13.0"
+  }
+}
