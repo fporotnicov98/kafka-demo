@@ -28,7 +28,7 @@ class KafkaConsumer {
                 eachMessage: async ({ topic, partition, message }) => {
                     try {
                         const order = JSON.parse(message.value.toString());
-                        logger.info(`📩 Message received from partition ${partition}`, { order });
+                        logger.info(`Message received from partition ${partition}`, { order });
                     } catch (error) {
                         logger.error('Error processing message', { error });
                     }
